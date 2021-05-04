@@ -60,7 +60,6 @@
     background-color: #A74A4A;
     display: flex;
     justify-content: center;
-    align-items: center;
     color: #FFFF;
  }
 
@@ -79,6 +78,7 @@
  }
 
  .BTU-username a {
+    margin-top: 4px;
     font-size: 17px;
     color: #FFFF;
     display: flex;
