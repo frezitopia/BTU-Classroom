@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classroom</title>
+    <link rel="shortcut icon" href="/Assets/Images/favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/UI.css">
+    <link rel="stylesheet" href="CSS/Fonts.Css">
+    <link rel="stylesheet" href="CSS/Responsive.css">
+</head>
+
+<body>
+    <div class="navbar-BG sticky-top ">
+        <nav class="navbar BTU-headProps navbar-expand-md navbar-light">
+            <div class="container-fluid p-0">
+                <a class="navbar-brand BTU-brand d-flex" href="#">
+                    <div class="BTU-logo-BG">
+                        <img src="Assets/Images/Logo-BTU.png" class="BTU-logo d-inline-block align-top" alt="">
+                    </div>
+                    <span class="BTU-logoTxt">BTU Classroom</span>
+                </a>
+                <p class="BTU-headTxt ml-2">2020-2021 წლის გაზაფხულის სემესტრი</p>
+                <button type="button" class="navbar-toggler BTU-toggler" data-bs-toggle="collapse"
+                    data-bs-target="#navbarDropdown" aria-controls="navbarDropdown" aria-expanded="false"
+                    aria-label="Toggle Navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="navbarDropdown" class="text-center BTU-collapse collapse navbar-collapse">
+                    <div class="BTU-inbox">
+                        <a class="BTU-envelope" href="#">
+                            <span class="BTU-envIcon"><i class="fas fa-envelope"></i></span>
+                            <span class="BTU-envNotification">1</span>
+                        </a>
+                    </div>
+                    <div class="BTU-username">
+                        <a href="#">ანრი ახალაძე</a>
+                    </div>
+                    <div class="BTU-logout">
+                        <a class="BTU-logoutBTN" href="#">
+                            <i class="fas fa-sign-out-alt"></i>
+                        </a>
+                    </div>
+                    <div class="BTU-dropdown">
+                        <a class="BTU-dropdownBTN" href="#">
+                            <i class="fas fa-caret-down"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </nav>
+    </div>
+
+    <div id="sidebar-wrapper">
+        <div class="BTU-sidebar-heading text-center ">
+            <p class="pt-4 pb-4 BTU-sHead">სამართავი პანელი</p>
+        </div>
+        <div class="list-group list-group-flush ">
+            <a href="#" class="BTU-list"> <span><i class="fal fa-home-lg"></i></span>
+                <p>მთავარი გვერდი</p>
+            </a>
+            <a href="#" class="BTU-list"> <span><i class="fal fa-book-open"></i></span>
+                <p>არჩეული კურსები</p>
+            </a>
+            <a href="#" class="BTU-list"> <span><i class="fal fa-graduation-cap"></i></span>
+                <p>გავლილი კურსები</p>
+            </a>
+            <a href="#" class="BTU-list"> <span><i class="fal fa-archive"></i></span>
+                <p>ჩემი პროგრამები</p>
+            </a>
+            <a href="#" class="BTU-list"> <span><i class="fal fa-calendar-alt"></i></span>
+                <p>ჩემი ცხრილი</p>
+            </a>
+            <a href="#" class="BTU-list"> <span><i class="fal fa-file-alt"></i></span>
+                <p>განცხადებები</p>
+            </a>
+        </div>
+        <hr class="BTU-hr">
+        <div class="BTU-sidebar-heading text-center ">
+            <p class="pt-3 pb-4 BTU-sHead">პირადი ინფორმაცია
+        </div>
+        <div class="list-group list-group-flush ">
+            <a href="#" class="BTU-list"> <span><i class="fal fa-folder"></i></span>
+                <p>რეზიუმე</p>
+            </a>
+            <a href="#" class="BTU-list"> <span><i class="fal fa-id-card-alt"></i></span>
+                <p>სასწავლო ბარათი</p>
+            </a>
+            <a href="#" class="BTU-list"> <span><i class="fal fa-user-circle"></i></span>
+                <p>რეკომენდაცია</p>
+            </a>
+            <a href="#" class="BTU-list"> <span><i class="fal fa-star"></i></span>
+                <p>რეიტინგი</p>
+            </a>
+        </div>
+        <hr class="BTU-hr hr2">
+    </div>
+
+    <div class="BTU-pageContent">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xxl-6 col-lg-12 col-md-12">
+                    <div class="BTU-score">
+                        <div class="row">
+                            <div class="BTU-cardWrapper col">
+                                <div class="BTU-report BTU-score-outer">
+                                    <div class="circle" id="circles-1"></div>
+                                </div>
+                                <p class="BTU-cardName my-2"><span>ბალანსი</span></p>
+                            </div>
+                            <div class="BTU-cardWrapper col">
+                                <div class="BTU-rating  BTU-score-outer">
+                                    <div class="circle" id="circles-2"></div>
+                                </div>
+                                <p class="BTU-cardName my-2"><span>რეიტინგი</span></p>
+                            </div>
+                            <div class="BTU-cardWrapper col">
+                                <div class="BTU-gpa  BTU-score-outer">
+                                    <div class="circle" id="circles-3"></div>
+                                </div>
+                                <p class="BTU-cardName my-2"><span>GPA</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="justify-content-center">
+                        <div class="BTU-lecture">
+                            <div class="BTU-lecHead-wrapper col p-3 pb-0 justify-content-center d-flex">
+                                <div class="BTU-lecHead">
+                                    <p>დღის ლექციები</p>
+                                </div>
+                            </div>
+                            <div class="BTU-lecture-wrapper row d-flex justify-content-around p-3">
+                                <div class="BTU-lecInfo-wrapper col align-items-center d-flex">
+                                    <div class="BTU-lecturer">
+                                        <img src="Assets/Images/Vakhtang.png" alt="">
+                                    </div>
+                                    <div class="BTU-lecInfo ms-4">
+                                        <p class="BTU-LectName">ვახტანგ ჭარაია</p>
+                                        <p class="BTU-lecName">ეკონომიკის პრინციპები</p>
+                                        <p>17:00-19:00</p>
+                                        <a href="#" class="btn BTU-lecJoin">შესვლა</a>
+                                    </div>
+                                </div>
+                                <div class="BTU-lecInfo-wrapper col align-items-center d-flex">
+                                    <div class="BTU-lecturer">
+                                        <img src="Assets/Images/mariam.jpg" alt="">
+                                    </div>
+                                    <div class="BTU-lecInfo mx-4">
+                                        <p class="BTU-LectName">მარიამ შოშიაშვილი</p>
+                                        <p class="BTU-lecName">სამუშაოს მოძიება</p>
+                                        <p>19:00-21:00</p>
+                                        <a href="#" class="btn btn-secondary disabled BTU-lecJoin">შესვლა</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="BTU-schedule justify-content-center h-100 col-xxl-6 col-lg-12 col-md-12">
+                    <div class="BTU-scGraph">
+                        <div class="BTU-graphHead col p-3 pb-0 justify-content-center d-flex">
+                            <p>ცხრილი</p>
+                        </div>
+                        <div
+                            class="BTU-graphCols align-self-end d-flex position-relative row justify-content-around p-4">
+                            <div class="BTU-graphColumn col-2 BTU-monday">
+                                <div class="BTU-graphHours w-100">
+                                    <a href="#" class="BTU-gLecLink">
+                                        <div class="BTU-gLecHrs" data-toggle="tooltip" data-placement="left"
+                                            title="React">
+                                            <p>19:00</p>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="BTU-gLecLink">
+                                        <div class="BTU-gLecHrs" data-toggle="tooltip" data-placement="left"
+                                            title="ეკონომიკის პრინციპები">
+                                            <p>15:00</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <p class="BTU-GraphDay">ორშაბათი</p>
+                            </div>
+                            <div class="BTU-graphColumn col-2 BTU-tuesday">
+                                <div class="BTU-graphHours w-100">
+                                    <a href="#" class="BTU-gLecLink">
+                                        <div class="BTU-gLecHrs" data-toggle="tooltip" data-placement="left"
+                                            title="Flutter">
+                                            <div class="BTU-gLecHrs">
+                                                <p>17:00</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <p class="BTU-GraphDay">სამშაბათი</p>
+                            </div>
+                            <div class="BTU-graphColumn col-2 BTU-wednesday">
+                                <div class="BTU-graphHours w-100">
+                                    <a href="#" class="BTU-gLecLink">
+                                        <div class="BTU-gLecHrs" data-toggle="tooltip" data-placement="left"
+                                            title="Angular">
+                                            <p>15:00</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <p class="BTU-GraphDay">ოთხშაბათი</p>
+                            </div>
+                            <div class="BTU-graphColumn col-2 BTU-thursday">
+                                <div class="BTU-graphHours w-100">
+                                    <a href="#" class="BTU-gLecLink">
+                                        <div class="BTU-gLecHrs" data-toggle="tooltip" data-placement="left"
+                                            title="Javascript (ES6)">
+                                            <p>19:00</p>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="BTU-gLecLink">
+                                        <div class="BTU-gLecHrs" data-toggle="tooltip" data-placement="left"
+                                            title="Python">
+                                            <p>17:00</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <p class="BTU-GraphDay">ხუთშაბათი</p>
+                            </div>
+                            <div class="BTU-graphColumn col-2 BTU-friday">
+                                <div class="BTU-graphHours w-100">
+                                    <a href="#" class="BTU-gLecLink">
+                                        <div class="BTU-gLecHrs" data-toggle="tooltip" data-placement="left"
+                                            title="სამუშაოს მოძიება">
+                                            <p>15:00</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <p class="BTU-GraphDay">პარასკევი</p>
+                            </div>
+                            <div class="BTU-graphColumn col-2 BTU-saturday">
+                                <div class="BTU-graphHours w-100">
+                                </div>
+                                <p class="BTU-GraphDay">შაბათი</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="BTU-news mt-4">
+                        <div class="BTU-newsHeader p-3 pb-0 d-flex">
+                            <p>სიახლეები სტუდენტებისათვის</p>
+                        </div>
+                        <div id="carousel" class="owl-carousel">
+                            <div class="item">
+                                <div class="BTU-sliderWrapper">
+                                    <div class="BTU-sliderImage">
+                                        <img src="Assets/Images/EDTECH.png" alt="">
+                                    </div>
+                                    <div class="BTU-sliderText">
+                                        <p>ქართული ენის შემწავლელი უფასო ონლაინ კურსი იწყება</p>
+                                        <a href="#">იხილეთ ვრცლად</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="BTU-sliderWrapper">
+                                    <div class="BTU-sliderImage">
+                                        <img src="Assets/Images/Hackathon.png" alt="">
+                                    </div>
+                                    <div class="BTU-sliderText">
+                                        <p>BTU-სა და "საქართველოს ბანკის" ჰაკათონი დასრულდა!</p>
+                                        <a href="#">იხილეთ ვრცლად</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="BTU-sliderWrapper">
+                                    <div class="BTU-sliderImage">
+                                        <img src="Assets/Images/Startup.png" alt="">
+                                    </div>
+                                    <div class="BTU-sliderText">
+                                        <p>სტარტაპების რეგისტრაცია დაიწყო</p>
+                                        <a href="#">იხილეთ ვრცლად</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="BTU-sliderWrapper">
+                                    <div class="BTU-sliderImage">
+                                        <img src="Assets/Images/training.png" alt="">
+                                    </div>
+                                    <div class="BTU-sliderText">
+                                        <p>ტრენინგი: დროის ეფექტური მენეჯმენტი</p>
+                                        <a href="#">იხილეთ ვრცლად</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="BTU-sliderWrapper">
+                                    <div class="BTU-sliderImage">
+                                        <img src="Assets/Images/presentation.png" alt="">
+                                    </div>
+                                    <div class="BTU-sliderText">
+                                        <p>ეფექტური პრეზენტაციის ტექნიკები</p>
+                                        <a href="#">იხილეთ ვრცლად</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+
+
+        <div class="BTU-JS">
+            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+                integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+                crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+                integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+                crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+                crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+                integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+                crossorigin="anonymous"></script>
+            <script src="JS/circles.js"></script>
+            <script src="JS/Font-Awesome.js"></script>
+            <script src="JS/main.js"></script>
+        </div>
+
+</body>
+
+</html>
