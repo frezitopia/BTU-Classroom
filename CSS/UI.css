@@ -178,11 +178,6 @@
     margin-bottom: 65px;
  }
 
- .BTU-rightsTxt {
-    display: flex;
-    position: relative;
- }
-
  .BTU-list {
     border-radius: 25px 0 0 25px;
     padding: 12px 20px;
