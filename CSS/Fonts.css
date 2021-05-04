@@ -1,0 +1,14 @@
+@font-face {
+    font-family: PoppinsReg;
+    src: url(../Assets/Fonts/Poppins-Regular.ttf);
+  }
+
+@font-face {
+    font-family: Nino-mtNormal;
+    src: url(../Assets/Fonts/Nino-mtNormal.ttf);
+  }
+
+@font-face {
+    font-family: Nino-regCaps;
+    src: url(../Assets/Fonts/Nino-regCaps.otf);
+  }

@@ -1,0 +1,353 @@
+ body {
+    font-family: Nino-regCaps;
+ }
+
+ .navbar-BG {
+    background-color: #FFFF;
+    border-radius: 0 0 19px 0;
+ }
+
+ .BTU-headProps {
+    border-radius: 0 0 19px 19px;
+    background-color: #363636;
+    padding: 0;
+    height: 65px;
+ }
+
+ .BTU-headTxt {
+    font-size: 17px;
+    margin: 0;
+    color: #ffff;
+    text-align: center;
+    margin-right: 8px;
+ }
+
+ .BTU-logo-BG {
+    background-color: #FFFF;
+    width: 43px;
+    height: 43px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .BTU-logo {
+    width: 31px;
+    height: 31px;
+ }
+
+ .BTU-logoTxt {
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    font-family: PoppinsReg;
+    color: #FFFF;
+    margin-left: 10px;
+ }
+
+ .BTU-envelope {
+    display: flex;
+    align-items: center;
+ }
+
+ .BTU-envNotification {
+    border-radius: 11px;
+    width: 20px;
+    height: 15px;
+    font-size: 12px;
+    background-color: #A74A4A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFF;
+ }
+
+ .BTU-envIcon {
+    color: #9B9B9B;
+    margin-right: 7px;
+ }
+
+ .BTU-envIcon>svg {
+    font-size: 19px;
+    display: flex;
+ }
+
+ .BTU-envIcon:hover {
+    color: #FFFF;
+ }
+
+ .BTU-username a {
+    font-size: 17px;
+    color: #FFFF;
+    display: flex;
+    align-items: center;
+ }
+
+ .BTU-logout>a {
+    color: #9B9B9B;
+ }
+
+ .BTU-logout>a:hover {
+    color: #FFFF;
+ }
+
+ .BTU-dropdown {
+    font-size: 28px;
+ }
+
+ .BTU-dropdownBTN span>svg {
+    margin-bottom: 1px;
+ }
+
+ .BTU-dropdown>a {
+    color: #9B9B9B;
+ }
+
+ .BTU-dropdown>a:hover {
+    color: #FFFF;
+ }
+
+ .BTU-calDate {
+    width: 89px;
+    height: 33px;
+ }
+
+ .BTU-calDay {
+    font-size: 17px;
+    font-family: PoppinsReg;
+ }
+
+ .BTU-collapse {
+    background-color: #363636;
+ }
+
+ .BTU-collapse>div {
+    margin-left: 25px;
+ }
+
+ #wrapper {
+    padding-left: 250px;
+    /* transition: all 0.4s ease 0s; */
+ }
+
+ #sidebar-wrapper {
+    margin-left: -250px;
+    left: 250px;
+    width: 300px;
+    background: #F3F3F3;
+    position: fixed;
+    height: 100%;
+    overflow-y: auto;
+    z-index: 1000;
+    /* transition: all 0.4s ease 0s; */
+ }
+
+ #page-content-wrapper {
+    width: 100%;
+ }
+
+ .sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+ }
+
+ .BTU-list {
+    border-radius: 25px 0 0 25px;
+    padding: 12px 20px;
+    color: #000000;
+    display: flex;
+ }
+
+ .BTU-list>p {
+    margin-left: 15px;
+ }
+
+ .BTU-list:hover {
+    background-color: #EFEFEF;
+    color: #C8177D;
+ }
+
+ .BTU-sidebar-heading {
+    font-weight: 600;
+ }
+
+ .BTU-hr {
+    margin: 25px;
+ }
+
+ .BTU-pageContent {
+    margin-left: 300px;
+    margin-top: 33px;
+ }
+
+ .BTU-score-outer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 170px;
+    border-radius: 25px;
+    background-color: #F5F5F5;
+    box-shadow: 0 0 14px 4px #D2D2D2;
+    border: #707070;
+
+ }
+
+ .BTU-circlesTxt {
+    font-size: 25px !important;
+    font-weight: 600;
+ }
+
+ .circle {
+    font-family: PoppinsReg;
+    display: inline-block;
+    stroke-linecap: round;
+ }
+
+ .BTU-cardName {
+    text-align: center;
+ }
+
+ .BTU-lecture,
+ .BTU-scGraph {
+    background-color: #F5F5F5;
+    box-shadow: 0 0 14px 4px #D2D2D2;
+    border-radius: 15px;
+    border: #707070;
+    height: 100%;
+ }
+
+ .BTU-lecHead>p,
+ .BTU-graphHead>p {
+    font-size: 18px;
+    font-weight: 700;
+ }
+
+ .BTU-lecturer img {
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+ }
+
+ .BTU-LectName {
+    font-weight: 600;
+ }
+
+ .BTU-lecJoin {
+    background-color: #C8177D;
+    color: #FFFF;
+    height: 30px;
+    align-items: center;
+    display: flex;
+    width: 85px;
+ }
+
+ .BTU-graphColumn>p {
+    bottom: 0;
+ }
+
+ .BTU-graphCols {
+    align-items: flex-end;
+ }
+
+ .BTU-graphColumn {
+    background-color: #EAEAEA;
+    border-radius: 15px 15px 0 0;
+    width: 100px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    bottom: 1;
+ }
+
+ .BTU-GraphDay {
+    position: absolute;
+ }
+
+ .BTU-monday {
+    height: 305px;
+ }
+
+ .BTU-tuesday {
+    height: 225px;
+ }
+
+ .BTU-wednesday {
+    height: 155px;
+ }
+
+ .BTU-thursday {
+    height: 260px;
+ }
+
+ .BTU-friday {
+    height: 155px;
+ }
+
+ .BTU-saturday {
+    height: 305px;
+ }
+
+ .BTU-graphHours {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+ }
+
+ .BTU-gLecHrs {
+    background-color: #66B73E;
+    font-family: PoppinsReg;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: #FFFF;
+    height: 32px;
+ }
+
+ .BTU-news {
+    background-color: rgb(245 245 245);
+    box-shadow: 0 0 14px 4px #d2d2d2;
+    border-radius: 15px;
+    border: rgb(112 112 112);
+    height: 100%;
+ }
+
+ .BTU-sliderWrapper {
+    justify-content: center;
+    flex-direction: column;
+ }
+
+ .BTU-sliderImage {
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    width: 278px;
+    height: 278px;
+    margin: 0 auto;
+ }
+
+ .BTU-sliderImage img {
+    width: 278px;
+    height: 258px;
+    border-radius: 25px;
+    object-fit: cover;
+ }
+
+ .BTU-newsHeader {
+    font-size: 18px;
+    font-weight: 700;
+ }
+
+ .BTU-sliderText {
+    margin: 10px auto 0 auto;
+    width: 278px;
+ }
+
+ .BTU-sliderText a:hover {
+    text-decoration: underline;
+ }
