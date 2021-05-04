@@ -170,6 +170,19 @@
     padding: 0;
  }
 
+ .BTU-rights {
+    padding: 12px 20px;
+    align-items: flex-end;
+    position: absolute !important;
+    bottom: 0;
+    margin-bottom: 65px;
+ }
+
+ .BTU-rightsTxt {
+    display: flex;
+    position: relative;
+ }
+
  .BTU-list {
     border-radius: 25px 0 0 25px;
     padding: 12px 20px;
@@ -217,7 +230,7 @@
  }
 
  .circle {
-   font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     display: inline-block;
     stroke-linecap: round;
  }

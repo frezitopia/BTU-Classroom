@@ -67,6 +67,10 @@
 
 @media only screen and (max-width: 863px) {
 
+    .BTU-rights {
+        display: none;
+    }
+
     .BTU-lecInfo-wrapper {
         margin-top: 15px;
         justify-content: center;
