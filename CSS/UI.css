@@ -1,5 +1,5 @@
  body {
-    font-family: Nino-regCaps;
+    font-family: "BPG Nino Mtavruli", sans-serif;
  }
 
  .navbar-BG {
@@ -41,7 +41,7 @@
     display: flex;
     align-items: center;
     font-size: 17px;
-    font-family: PoppinsReg;
+    font-family: 'Poppins', sans-serif;
     color: #FFFF;
     margin-left: 10px;
  }
@@ -97,7 +97,7 @@
  }
 
  .BTU-toggler {
-   margin: 10px 10px 10px 0px;
+    margin: 10px 10px 10px 0px;
  }
 
  .BTU-dropdown {
@@ -123,7 +123,7 @@
 
  .BTU-calDay {
     font-size: 17px;
-    font-family: PoppinsReg;
+    font-family: 'Poppins', sans-serif;
  }
 
  .BTU-collapse {
@@ -211,7 +211,7 @@
  }
 
  .circle {
-    font-family: PoppinsReg;
+   font-family: 'Poppins', sans-serif;
     display: inline-block;
     stroke-linecap: round;
  }
@@ -317,7 +317,7 @@
 
  .BTU-gLecHrs {
     background-color: #66B73E;
-    font-family: PoppinsReg;
+    font-family: 'Poppins', sans-serif;
     border-radius: 25px;
     align-items: center;
     justify-content: center;
