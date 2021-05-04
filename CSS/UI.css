@@ -243,6 +243,11 @@
 
  .BTU-LectName {
     font-weight: 600;
+    font-size: 14px;
+ }
+
+ .BTU-lecName {
+    font-size: 13px;
  }
 
  .BTU-lecJoin {
