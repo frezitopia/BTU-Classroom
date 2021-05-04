@@ -39,6 +39,7 @@
 
  .BTU-logoTxt {
     display: flex;
+    font-weight: 600;
     align-items: center;
     font-size: 17px;
     font-family: 'Poppins', sans-serif;
