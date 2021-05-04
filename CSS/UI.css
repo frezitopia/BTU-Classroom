@@ -92,6 +92,14 @@
     color: #FFFF;
  }
 
+ .BTU-brand {
+    margin-left: 10px;
+ }
+
+ .BTU-toggler {
+   margin: 10px 10px 10px 0px;
+ }
+
  .BTU-dropdown {
     font-size: 28px;
  }

@@ -4,6 +4,12 @@
     }
 }
 
+@media only screen and (max-width: 1365px) {
+    .BTU-newsHeader  {
+       justify-content: center;
+    }
+}
+
 @media only screen and (max-width: 965px) {
     .BTU-saturday {
         display: none;
@@ -24,6 +30,9 @@
     .BTU-lecture-wrapper {
         display: flex;
     }
+    .navbar-BG {
+        position: unset;
+    }
 }
 
 @media only screen and (max-width: 839px) {
@@ -32,7 +41,7 @@
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 863px) {
 
     .BTU-inbox,
     .BTU-username {
@@ -74,6 +83,7 @@
         overflow-y: inherit;
     }
 
+    
     .BTU-pageContent {
         margin: 0;
     }
@@ -92,6 +102,18 @@
     }
 }
 
+@media only screen and (max-width: 546px) {
+    .BTU-friday {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 443px) {
+    .BTU-thursday {
+        margin-top: 20px;
+    }
+}
+
 @media only screen and (max-width: 340px) {
     .BTU-lecInfo {
         margin-right: 0!important;
@@ -106,3 +128,6 @@
         justify-content: center!important;
     }
 }
+
+
+1613 1399
