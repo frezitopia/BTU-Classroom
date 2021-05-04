@@ -70,6 +70,5 @@ var w = drop.offsetHeight;
 
 btn.addEventListener("click", () => {
     sidebar.style.transition = "all 0.5s";
-    // sidebar.style.marginTop = 98 + "px";
     sidebar.classList.toggle("headMargin");
 })
