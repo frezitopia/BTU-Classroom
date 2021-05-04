@@ -85,6 +85,10 @@
     align-items: center;
  }
 
+ .BTU-logout {
+    margin-right: 10px;
+ }
+
  .BTU-logout>a {
     color: #9B9B9B;
  }
@@ -129,7 +133,7 @@
 
  .BTU-collapse {
     background-color: #363636;
-    margin-right: 10px;
+    /* margin-right: 10px; */
  }
 
  .BTU-collapse>div {
