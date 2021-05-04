@@ -69,11 +69,9 @@ jQuery("#carousel").owlCarousel({
 });
 
 var sidebar = document.querySelector("#sidebar-wrapper");
-var btn = document.querySelector(".BTU-toggler");
-var drop = document.querySelector(".BTU-collapse");
-var w = drop.offsetHeight;
+var togglerButton = document.querySelector(".BTU-toggler");
 
-btn.addEventListener("click", () => {
+togglerButton.addEventListener("click", () => {
     sidebar.style.transition = "all 0.5s";
     sidebar.classList.toggle("headMargin");
 })
