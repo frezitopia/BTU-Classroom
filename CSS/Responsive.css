@@ -1,6 +1,33 @@
+@media only screen and (max-width: 1615px) {
+    .BTU-saturday {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1592px) {
+    .BTU-lecInfo {
+        margin: 0 0.5rem 0 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 1455px) {
+    .BTU-graphColumn  {
+        width: 80px;
+    }
+}
+
 @media only screen and (max-width: 1400px) {
     .BTU-schedule  {
         margin-top: 25px;
+    }
+    .BTU-graphColumn  {
+        width: 100px;
+    }
+    .BTU-saturday {
+        display: flex;
+    }
+    .BTU-graphHead, .BTU-lecHead-wrapper, .BTU-newsHeader {
+        justify-content: center;
     }
 }
 
