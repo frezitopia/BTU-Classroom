@@ -9,6 +9,17 @@ body {
     user-select: none;
 }
 
+.BTU-pageContent::before {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: #C8177D;
+    border-radius: 50%;
+    z-index: -1;
+    bottom: 43%;
+}
+
 body::after {
     content: "";
     background-image: url(../Assets/Images/Classroom-BG.png);
