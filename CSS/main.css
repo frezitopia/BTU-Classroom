@@ -64,12 +64,11 @@ p {
 }
 
 .owl-dots {
-    position: absolute;
-    width: 100%;
     display: flex;
+    width: 100%;
     justify-content: center;
     align-items: center;
-    bottom: 1;
+    padding: 10px 0;
 }
 
 .owl-dots button {

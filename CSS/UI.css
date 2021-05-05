@@ -263,6 +263,15 @@
     border-radius: 15px;
  }
 
+ .langWrap {
+   display: flex;
+   justify-content: space-around;
+ }
+
+ .langWrap a {
+   color: black!important;
+ }
+
  .BTU-LectName {
     font-weight: 600;
     font-size: 14px;
@@ -388,12 +397,22 @@
     text-decoration: underline;
  }
 
-.langWrap {
+.BTU-langWrap {
    justify-content: space-around;
    display: flex;
 }
 
-.langWrap a {
+.BTU-langWrap a {
+   color: black!important;
+}
+
+.BTU-langWrapbot {
+   justify-content: space-around;
+   display: flex;
+   display: none;
+}
+
+.BTU-langWrapbot a {
    color: black!important;
 }
 
