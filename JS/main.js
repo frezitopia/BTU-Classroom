@@ -34,7 +34,7 @@ Circles.create({
 
 
 jQuery("#carousel").owlCarousel({
-  // autoplay: true,
+  autoplay: true,
   loop: true,
   margin: 20,
   responsiveClass: true,
