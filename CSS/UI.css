@@ -357,6 +357,7 @@
  .BTU-news {
     background-color: rgb(245 245 245);
     border-radius: 15px;
+    opacity: 0.9;
     border: rgb(112 112 112);
     height: 100%;
  }
