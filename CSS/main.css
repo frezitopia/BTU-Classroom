@@ -14,7 +14,7 @@ body::after {
     background-image: url(../Assets/Images/Classroom-BG.png);
     background-repeat: no-repeat, repeat;
     background-size: cover;
-    opacity: 0.2;
+    opacity: 0.3;
     top: 0;
     left: 0;
     bottom: 0;

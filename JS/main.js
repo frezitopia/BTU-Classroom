@@ -70,6 +70,8 @@ jQuery("#carousel").owlCarousel({
 
 var sidebar = document.querySelector("#sidebar-wrapper");
 var togglerButton = document.querySelector(".BTU-toggler");
+var langGE = document.querySelector(".BTU-langGE");
+var langEN = document.querySelector(".BTU-langEN");
 
 togglerButton.addEventListener("click", () => {
   sidebar.style.transition = "all 0.5s";
@@ -109,7 +111,6 @@ const thursday = document.querySelector('.thursday');
 const friday = document.querySelector('.friday');
 const saturday = document.querySelector('.saturday');
 const newsHeader = document.querySelector('.BTU-newsHeader');
-const sliderTxt = document.querySelector('.BTU-sliderText>p');
 
 
 link.forEach(el => {
@@ -149,7 +150,6 @@ link.forEach(el => {
     friday.textContent = data[attr].friday;
     saturday.textContent = data[attr].saturday;
     newsHeader.textContent = data[attr].newsHeader;
-    sliderTxt.textContent = data[attr].sliderTxt;
   });
 });
 
@@ -186,7 +186,6 @@ var data = {
     "friday": "Friday",
     "saturday": "Saturday",
     "newsHeader": "News for students",
-    "sliderTxt": "Free Online Course for Georgian language learners begins",
   },
   "georgian": {
     "semester": "2020-2021 წლის გაზაფხულის სემესტრი",
@@ -206,10 +205,10 @@ var data = {
     "balance": "ბალანსი",
     "GPA": "GPA",
     "lecHead": "დღის ლექციები",
-    "lecNameOne": "ვახტანგ ჭარაია",
-    "lecNameTwo": "მარიამ შოშიაშვილი",
-    "lectNameOne": "ეკონომიკის პრინციპები",
-    "lectNameTwo": "სამუშაოს მოძიება",
+    "lecNameOne": "ეკონომიკის პრინციპები",
+    "lecNameTwo": "სამუშაოს მოძიება",
+    "lectNameOne": "ვახტანგ ჭარაია",
+    "lectNameTwo": "მარიამ შოშიაშვილი",
     "lecJoin": "შესვლა",
     "graphTxt": "ცხრილი",
     "monday": "ორშაბათი",
@@ -219,6 +218,5 @@ var data = {
     "friday": "პარასკევი",
     "saturday": "შაბათი",
     "newsHeader": "სიახლეები სტუდენტებისათვის",
-    "sliderTxt": "ქართული ენის შემწავლელი უფასო ონლაინ კურსი იწყება",
   }
 };
