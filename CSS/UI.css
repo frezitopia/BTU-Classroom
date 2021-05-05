@@ -86,7 +86,7 @@
  }
 
  .BTU-logout {
-    margin-right: 10px;
+    margin-right: 25px;
  }
 
  .BTU-logout>a {
@@ -247,7 +247,7 @@
     margin-top: 10px;
  }
 
- .BTU-lecHead>p,
+ .BTU-lecTxt,
  .BTU-graphHead>p {
     font-size: 18px;
     font-weight: 700;
@@ -275,6 +275,7 @@
     align-items: center;
     display: flex;
     width: 85px;
+    justify-content: center;
  }
 
  .BTU-graphColumn>p {
@@ -382,3 +383,4 @@
  .BTU-sliderText a:hover {
     text-decoration: underline;
  }
+
