@@ -90,7 +90,7 @@
         width: 100px !important;
     }
 
-    .BTU-rights, .BTU-langWrap {
+    .BTU-rights{
         display: none;
     }
 
@@ -99,11 +99,6 @@
         display: flex;
         align-items: center;
         justify-content: center;
-    }
-
-    .BTU-langWrapbot {
-        margin-top: 50px;
-        display: flex;
     }
 
     .BTU-lecInfo-wrapper {
@@ -164,6 +159,7 @@
 
     .BTU-pageContent {
         margin: 0;
+        margin-top: 20px;
     }
 
     .BTU-lecInfo-wrapper {
@@ -178,7 +174,6 @@
 }
 
 @media only screen and (max-width: 767px) {
-
     .BTU-inbox,
     .BTU-username,
     .BTU-logout {

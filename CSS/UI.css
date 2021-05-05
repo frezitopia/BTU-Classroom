@@ -397,25 +397,6 @@
     text-decoration: underline;
  }
 
-.BTU-langWrap {
-   justify-content: space-around;
-   display: flex;
-}
-
-.BTU-langWrap a {
-   color: black!important;
-}
-
-.BTU-langWrapbot {
-   justify-content: space-around;
-   display: flex;
-   display: none;
-}
-
-.BTU-langWrapbot a {
-   color: black!important;
-}
-
 .BTU-langEN {
    font-family: 'Poppins', sans-serif;
 }
